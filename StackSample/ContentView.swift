@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+//        VStack(alignment: .leading, spacing: 40.0) {
+//            Text("Hello, World!")
+//            Text("Hello SwiftUI!")
+//        }
+        
+        HStack(alignment: .center, spacing: 40.0) {
+            Text("iPhone 5")
+            Text("iPhone 6")
+            Text("iPhone 7")
+            Text("iPhone 8")
+        }
+        
     }
 }
 
